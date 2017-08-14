@@ -9,9 +9,6 @@ body {
     background-repeat: repeat;
 }
 
-#emphasis {
-    text-decoration: underline;
-}
 
 table, th, td {
     border: 1px solid darkgrey;
