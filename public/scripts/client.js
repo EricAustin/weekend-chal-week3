@@ -113,13 +113,13 @@ function displayList(data) {
             $task.append(
                 '<td class="complete task col-sm-8">' + item.task + '</td>' +
                 '<td class="col-sm-2"> <button class="btn-info completeButton">Completed</button></td>' +
-                '<td class="col-sm-2"> <button class="btn-primary deleteButton">Delete this task</button></td>')
+                '<td class="col-sm-2"> <button class="btn-primary deleteButton">Delete this</button></td>')
             $('#tableBody').append($task);
         } else {
             $task.prepend(
                 '<td class="incomplete task col-sm-8">' + item.task + '</td>' +
                 '<td class="col-sm-2"> <button class="btn-danger incompleteButton">Incomplete</button></td>' +
-                '<td class="col-sm-2"> <button class="btn-primary deleteButton">Delete this task</button></td>')
+                '<td class="col-sm-2"> <button class="btn-primary deleteButton">Delete this</button></td>')
             $('#tableBody').prepend($task);
 
         }

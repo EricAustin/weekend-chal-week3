@@ -1,12 +1,16 @@
 #introduction {
     font-family: 'Permanent Marker';
     text-align: center;
-    font-size: 600%;
+    font-size: 700%;
 }
 
 body {
     background-image: url("10-graph.jpg");
     background-repeat: repeat;
+}
+
+#emphasis {
+    text-decoration: underline;
 }
 
 table, th, td {
