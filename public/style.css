@@ -10,8 +10,8 @@ body {
 }
 
 table, th, td {
-    border: 1px solid black;
-    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid darkgrey;
+    background-color: rgba(255, 255, 255, 0.24);
     font-family: "Coda";
 }
 
@@ -39,4 +39,8 @@ button {
 .complete {
     background-color: rgba(200, 200, 200, 0.7);
     text-decoration: line-through;
+}
+
+#columnHeadings {
+    font-size: 125%;
 }
